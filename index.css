@@ -28,7 +28,7 @@ section{
     flex-grow: 1;
 }
 
-div{
+#itemsCart{
     display: flex;
     height: 70%;
     width: 200px;
@@ -38,9 +38,11 @@ div{
     overflow-y: scroll;
 }
 
+
+
 .C{
-font-size: larger;
-text-align: right;
+    font-size: larger;
+    text-align: right;
 }
 
 p{
@@ -59,7 +61,7 @@ button{
     border: none;
     transition: 0.8s ease;
     background-color: rgb(68, 209, 68);
-
+    
 }
 
 button:hover{
@@ -71,4 +73,27 @@ aside{
     padding-left: 5px;
 }
 
+.boton{
+    background-color: white;
+    width: 40px;
+    padding: 20px;
+    
+}
 
+.padre{
+    display: flex;
+    justify-content: space-between;
+    max-width: 380px;
+    margin-top: 10px;
+    border-bottom: solid 1px;
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.precio{
+    margin-top: 7px;
+}
